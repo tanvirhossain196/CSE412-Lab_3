@@ -568,6 +568,7 @@ h1 {
 }
 
 .settings-card {
+  width: 550px;
   background-color: #fff;
   border-radius: 12px;
   padding: 25px;
@@ -668,7 +669,7 @@ h1 {
   background-color: #1d1638;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 13px;
   padding: 10px 20px;
   font-size: 15px;
   font-weight: 500;
@@ -705,9 +706,11 @@ h1 {
 }
 
 .google-icon {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   margin-right: 12px;
+  vertical-align: middle;
+  background-color: transparent;
 }
 
 .email-text {
@@ -770,6 +773,7 @@ h1 {
 }
 
 .benefits-card {
+  width: 550px;
   background-color: #fff;
   border-radius: 12px;
   padding: 30px;
@@ -808,7 +812,7 @@ h1 {
 
 .university-email:focus {
   outline: none;
-  border-color: #9f73fc;
+  /* border-color: #9f73fc; */
 }
 
 .verification-btn {
